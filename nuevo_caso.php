@@ -39,7 +39,7 @@ $resultados2=obtener_datos_cliente($correo);
         <div class="card">
           <div class="card-body">
             <h4 class="card-title">Nuevo Caso</h4>
-              <form class="form-sample">
+              <form class="form-sample" method="post">
                 <p class="card-description">
                   Datos de Contacto
                 </p>
@@ -178,7 +178,8 @@ $resultados2=obtener_datos_cliente($correo);
           </div>
           
                 <button type="submit" class="btn btn-success mr-2">Submit</button>
-                <button class="btn btn-light">Cancel</button> 
+                <button class="btn btn-light">Limpiar</button>
+                <a href="./casos.php" class="btn btn-light">Cancelar</a>
               </form>
       </div>
     </div>
